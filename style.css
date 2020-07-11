@@ -57,7 +57,7 @@ body {
 .footer {
     width: 100%;
     height: 90px;
-    position: fixed;
+    position: static;
     bottom: 0;
     color: #ffffff;
     background-image: linear-gradient(to right bottom, #1c287c, #0e327e, #033b7f, #06437e, #144a7c);
