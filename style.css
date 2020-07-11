@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    background-image: linear-gradient(to right top, #330537, #45155d, #4f2a88, #4a43b8, #125eeb);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    color: #ffffff;
+    background-image: linear-gradient(to right bottom, #1c287c, #0e327e, #033b7f, #06437e, #144a7c);
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(circle, #280e64, #200f5e, #190f58, #110f52, #090f4c);
+    margin: 110px auto;
+    margin-bottom: 200px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.main>h3 {
+    font-size: 50px;
+}
+
+.time-set {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.time-set>h1 {
+    font-size: 50px;
+}
+
+.btn {
+    margin: 5% 4px;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 24px;
+}
+
+.reset-btn {
+    display: block;
+    margin: 5px auto;
+    width: 60%;
+    border-radius: 50px;
+    padding: 5px 0;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+    background-image: linear-gradient(to right bottom, #1c287c, #0e327e, #033b7f, #06437e, #144a7c);
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav {
+        height: 80px;
+        padding: 25px 0;
+    }
+    .footer {
+        height: 80px;
+    }
+    nav>h1, .footer-h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nav {
+        height: 70px;
+        padding: 20px 0;
+    }
+    .footer {
+        height: 70px;
+    }
+    nav>h1, .footer-h1 {
+        font-size: 24px;
+    }
+    .main {
+        width: 350px;
+        padding-top: 50px;
+    }
+    .main>h3 {
+        font-size: 50px;
+    }
+    .time-set {
+        display: flex;
+        justify-content: center;
+        margin-top: 12%;
+    }
+    .time-set>h1 {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .main {
+        width: 300px;
+        padding-top: 50px;
+    }
+    .main>h3 {
+        font-size: 40px;
+    }
+    .time-set {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+    }
+    .time-set>h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    nav>h1, .footer-h1 {
+        font-size: 22px;
+    }
+}
