@@ -70,6 +70,9 @@ body {
         height: 80px;
         padding: 25px 0;
     }
+    .main {
+        margin: 100px auto;
+    }
     .footer {
         height: 80px;
     }
