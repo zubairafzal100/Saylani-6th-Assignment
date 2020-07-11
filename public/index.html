@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1>stopwatch app</h1>
+    </nav>
+    <main class="main">
+        <h3>Timer</h3>
+        <div class="time-set">
+            <h1 id="hours">00 :</h1>
+            <h1 id="mins">00 :</h1>
+            <h1 id="secs">00 .</h1>
+            <h1 id="msecs">00</h1>
+        </div>
+        <div>
+            <button id="start-btn" type="button" onclick="startWatch()" class="btn btn-outline-success">Start</button>
+            <button id="stop-btn" type="button" onclick="stopWatch()" class="btn btn-outline-warning">Stop</button>
+            <button id="reset-btn" type="button" onclick="resetWatch()" class="btn reset-btn btn-outline-danger">Reset</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <h1 class="footer-h1">made by zubair afzal</h1>
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
